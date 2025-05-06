@@ -1,5 +1,6 @@
 import './App.css';
-import Gallery from './components/Gallery';
+import Gallery from './component/Gallery';
+import Gallery1 from './components/Gallery';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <>
       <h1>Props</h1>
       <div className="card">
-        <Gallery nam={nam} age={age} isMarrade={isMarrade} hasCat={hasCat} />
+        <Gallery1 nam={nam} age={age} isMarrade={isMarrade} hasCat={hasCat} />
+        <Gallery />
       </div>
     </>
   )
